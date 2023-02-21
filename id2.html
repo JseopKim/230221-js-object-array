@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root">
+    <div>첫번째</div>
+    <div>두번째</div>
+    <div>세번째</div>
+  </div>
+  <script>
+    let root;
+    console.log(root);
+    root = document;
+    console.dir(root);
+    console.log(typeof(root));
+    let a = root.getElementById('root');
+    console.log(a);
+    console.dir(a.children[1]);
+    a.children[0].style.color = "red";
+    a.children[0].style.fontSize = "40px";
+    a.children[0].style.backgroundColor = "yellow";
+    a.children[1].style.color = "yellow";
+    a.children[1].style.fontSize = "50px";
+    a.children[1].style.backgroundColor = "green";
+    a.children[2].style.color = "green";
+    a.children[2].style.fontSize = "70px";
+    a.children[2].style.backgroundColor = "red";
+  </script>
+</body>
+</html>

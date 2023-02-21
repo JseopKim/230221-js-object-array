@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Training</title>
+</head>
+<body>
+  <div id="root">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <script>
+    let FW = {
+      LW : ["아자르", "비니시우스"],
+      ST : "벤제마",
+      RW : ["호드리구", "아센시오", "바스케스"]
+    }
+
+    let MF = {
+      LM : ["크로스", "세바요스"],
+      CM : ["발베르데", "카마빙가", "추아메니"],
+      RM : ["모드리치"]
+    }
+
+    let DF = {
+      LB : ["멘디", "알라바"],
+      CB : ["밀리탕", "뤼디거"],
+      RB : ["카르바할", "나초"]
+    }
+
+    let GK = ["쿠르투아", "루닌"]
+
+    let soccer = {GK, DF, MF, FW};
+    console.log(soccer.MF["CM"]);
+  </script>
+</body>
+</html>
